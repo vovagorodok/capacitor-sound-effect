@@ -71,7 +71,7 @@ import { SoundEffect } from 'capacitor-sound-effect';
 
 #### Load the sounds
 
-In Ionic, the path is relative to your 'public' directory. So for a file located in /public/assets/sounds, the below is applicable:
+In Ionic, the path is relative to your 'public' directory. So for a file located in /public/assets/sounds/, the below is applicable:
 
 ```javascript
 loadSounds() {
