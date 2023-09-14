@@ -1,6 +1,6 @@
 {
   "name": "capacitor-sound-effect",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Native sound effects",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,14 +13,14 @@
     "ios/Plugin/",
     "CapacitorSoundEffect.podspec"
   ],
-  "author": "Vincent Velociter",
+  "author": "Stefan Schermann (forked from https://github.com/veloce/lichobile by Vincent Velociter)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/veloce/capacitor-sound-effect.git"
+    "url": "git+https://github.com/RoepStoep/capacitor-sound-effect.git"
   },
   "bugs": {
-    "url": "https://github.com/veloce/capacitor-sound-effect/issues"
+    "url": "https://github.com/RoepStoep/capacitor-sound-effect/issues"
   },
   "keywords": [
     "capacitor",
