@@ -1,4 +1,4 @@
-package org.lichess.plugin
+package org.lidraughts.plugin
 
 import android.media.AudioAttributes
 import android.media.SoundPool

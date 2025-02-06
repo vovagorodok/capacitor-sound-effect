@@ -31,14 +31,12 @@ ionic cap sync
 ### loadSound(...)
 
 ```typescript
-loadSound(options: { id: string; path: string; }) => any
+loadSound(options: { id: string; path: string; }) => Promise<void>
 ```
 
 | Param         | Type                                       |
 | ------------- | ------------------------------------------ |
 | **`options`** | <code>{ id: string; path: string; }</code> |
-
-**Returns:** <code>any</code>
 
 --------------------
 
@@ -46,14 +44,12 @@ loadSound(options: { id: string; path: string; }) => any
 ### play(...)
 
 ```typescript
-play(options: { id: string; }) => any
+play(options: { id: string; }) => Promise<void>
 ```
 
 | Param         | Type                         |
 | ------------- | ---------------------------- |
 | **`options`** | <code>{ id: string; }</code> |
-
-**Returns:** <code>any</code>
 
 --------------------
 
