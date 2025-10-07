@@ -7,10 +7,7 @@ export class SoundEffectWeb extends WebPlugin implements SoundEffectPlugin {
   private audioMap: { [id: string]: HTMLAudioElement | undefined } = {}
 
   constructor() {
-    super({
-      name: 'SoundEffect',
-      platforms: ['web']
-    })
+    super()
   }
 
   async loadSound({ id, path }: { id: string, path: string }): Promise<void> {
